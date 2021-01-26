@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/choose_emotion.css" />
+        <link href="../css/font.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>SOPANG</h1>
+            <br />
+            <hr />
+        </header>
+        <div id="your_emotion">
+            <center>
+                <p>오늘 당신의 기분은 어떤가요?</p>
+                <br />
+                <fieldset id="check_emotion">
+                    <input type="radio" id="happy" name="emotion" onclick="location.href='../recommend/recommend_happy.html'" /><label for="happy">행복</label>
+                    <input type="radio" id="flutter" name="emotion" /><label for="flutter" onclick="location.href='../recommend/recommend_flutter.html'">설렘</label>
+                    <input type="radio" id="impression" name="emotion" /><label for="impression" onclick="location.href='../recommend/recommend_impression.html'">감동</label>
+                    <input type="radio" id="depressed" name="emotion" /><label for="depressed" onclick="location.href='../recommend/recommend_depressed.html'">우울</label>
+                    <input type="radio" id="angry" name="emotion" /><label for="angry" onclick="location.href='../recommend/recommend_angry.html'">분노</label>
+                    <input type="radio" id="mad" name="emotion" /><label for="mad" onclick="location.href='../recommend/recommend_mad.html'">짜증</label>
+                </fieldset>
+                <br />
+                <button class="moving" id="skip" onclick="location.href='../recommend/recommend.html'">SKIP</button>
+            </center>
+        </div>
+        <script>
+            $('.hover').mouseleave(function () {
+                $(this).removeClass('hover');
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/Recommendation.css" />
+        <link href="../css/font.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <img src="https://blog.kakaocdn.net/dn/TdgeN/btqUM8JiopP/8hYAJkWDU6WPzLFWkFgGBK/img.jpg" onclick='location.href = "../main.html"' class="img-circle" />
+            <div class="img-circle-background"></div>
+            <ul class="genre">
+                <li class="genre" onclick='location.href="../genre/romance.html"'>ROMANCE</li>
+                <li class="genre" onclick='location.href="../genre/horror.html"'>HORROR</li>
+                <li class="genre" onclick='location.href="../genre/action.html"'>ACTION</li>
+                <li class="genre" onclick='location.href="../genre/science_fiction.html"'>SCIENCE FICTION</li>
+                <li class="genre" onclick='location.href="../genre/comedy.html"'>COMEDY</li>
+                <li class="genre" onclick='location.href="../genre/fantasy.html"'>FANTASY</li>
+                <li class="genre" onclick='location.href="../genre/musical.html"'>MUSICAL</li>
+                <li class="genre" onclick='location.href="../genre/animation.html"'>ANIMATION</li>
+            </ul>
+        </nav>
+        <section id="sec-search-bar">
+            <form class="search">
+                <input type="text" class="search-bar" placeholder="검색" />
+            </form>
+        </section>
+        <section id="sec-phrases">
+            <div class="phrases">ANIMATON</div>
+        </section>
+        <section id="sec-movie-poster">
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/d/d1/%EB%84%88%EC%9D%98_%EC%9D%B4%EB%A6%84%EC%9D%80.jpg"
+                id="mov1"
+                alt="영화1"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/d/d1/%EB%84%88%EC%9D%98_%EC%9D%B4%EB%A6%84%EC%9D%80.jpg&title=너의 이름은&link=https:\/\/namu.wiki/w/%EB%84%88%EC%9D%98%20%EC%9D%B4%EB%A6%84%EC%9D%80.'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181026_40/1540518904460lgFIb_JPEG/movie_image.jpg"
+                id="mov2"
+                alt="영화2"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181026_40/1540518904460lgFIb_JPEG/movie_image.jpg&title=너의 췌장을 먹고싶어&link=https:\/\/namu.wiki/w/%EB%84%88%EC%9D%98%20%EC%B7%8C%EC%9E%A5%EC%9D%84%20%EB%A8%B9%EA%B3%A0%20%EC%8B%B6%EC%96%B4'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/b/bc/%EC%84%BC%EA%B3%BC_%EC%B9%98%ED%9E%88%EB%A1%9C%EC%9D%98_%ED%96%89%EB%B0%A9%EB%B6%88%EB%AA%85_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov3"
+                alt="영화3"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/b/bc/%EC%84%BC%EA%B3%BC_%EC%B9%98%ED%9E%88%EB%A1%9C%EC%9D%98_%ED%96%89%EB%B0%A9%EB%B6%88%EB%AA%85_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=센과 치히로의 행방불명&link=https:\/\/namu.wiki/w/%EC%84%BC%EA%B3%BC%20%EC%B9%98%ED%9E%88%EB%A1%9C%EC%9D%98%20%ED%96%89%EB%B0%A9%EB%B6%88%EB%AA%85'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/5/51/%ED%95%98%EC%9A%B8%EC%9D%98_%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94_%EC%84%B1_%28%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov4"
+                alt="영화4"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/5/51/%ED%95%98%EC%9A%B8%EC%9D%98_%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94_%EC%84%B1_%28%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=하울의 움직이는 성&link=https:\/\/namu.wiki/w/%ED%95%98%EC%9A%B8%EC%9D%98%20%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%20%EC%84%B1'"
+            />
+            <img
+                src="https://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=5&simg=201806081358225296234_20180608140053_01.jpg"
+                id="mov5"
+                alt="영화5"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=5&simg=201806081358225296234_20180608140053_01.jpg&title=이별의 아침에 약속의 꽃을 장식하자&link=https:\/\/namu.wiki/w/%EC%9D%B4%EB%B3%84%EC%9D%98%20%EC%95%84%EC%B9%A8%EC%97%90%20%EC%95%BD%EC%86%8D%EC%9D%98%20%EA%BD%83%EC%9D%84%20%EC%9E%A5%EC%8B%9D%ED%95%98%EC%9E%90'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/7/7a/%EB%B2%BC%EB%9E%91_%EC%9C%84%EC%9D%98_%ED%8F%AC%EB%87%A8.jpg"
+                id="mov6"
+                alt="영화6"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/7/7a/%EB%B2%BC%EB%9E%91_%EC%9C%84%EC%9D%98_%ED%8F%AC%EB%87%A8.jpg&title=벼랑 위의 포뇨&link=https:\/\/namu.wiki/w/%EB%B2%BC%EB%9E%91%20%EC%9C%84%EC%9D%98%20%ED%8F%AC%EB%87%A8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20170523_6/1495517148752Hwytk_JPEG/movie_image.jpg"
+                id="mov7"
+                alt="영화7"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20170523_6/1495517148752Hwytk_JPEG/movie_image.jpg&title=하이큐!&link=https:\/\/namu.wiki/w/%ED%95%98%EC%9D%B4%ED%81%90!!'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20170419_128/1492579106081DlvO1_JPEG/movie_image.jpg"
+                id="mov8"
+                alt="영화8"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20170419_128/1492579106081DlvO1_JPEG/movie_image.jpg&title=목소리의 형태&link=https:\/\/namu.wiki/w/%EB%AA%A9%EC%86%8C%EB%A6%AC%EC%9D%98%20%ED%98%95%ED%83%9C'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20170414_125/1492154333194H9k8h_JPEG/movie_image.jpg"
+                id="mov9"
+                alt="영화9"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20170414_125/1492154333194H9k8h_JPEG/movie_image.jpg&title=쿠로코의 농구 : 라스트 게임&link=https:\/\/namu.wiki/w/%EC%BF%A0%EB%A1%9C%EC%BD%94%EC%9D%98%20%EB%86%8D%EA%B5%AC'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20200108_54/1578449213598RuU4p_JPEG/movie_image.jpg"
+                id="mov10"
+                alt="영화10"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20200108_54/1578449213598RuU4p_JPEG/movie_image.jpg&title=진격의 거인 : 자유의 날개&link=https:\/\/namu.wiki/w/%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20130902_120/1378102519127eR7Fz_JPEG/movie_image.jpg"
+                id="mov11"
+                alt="영화11"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20130902_120/1378102519127eR7Fz_JPEG/movie_image.jpg&title=바람이 분다&link=https:\/\/namu.wiki/w/%EB%B0%94%EB%9E%8C%EC%9D%B4%20%EB%B6%84%EB%8B%A4(%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98)'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/f/fe/%EC%BD%94%EC%BF%A0%EB%A6%AC%EC%BD%94%EC%96%B8%EB%8D%95%EC%97%90%EC%84%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov12"
+                alt="영화12"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/f/fe/%EC%BD%94%EC%BF%A0%EB%A6%AC%EC%BD%94%EC%96%B8%EB%8D%95%EC%97%90%EC%84%9C_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=코쿠리코 언덕에서&link=https:\/\/namu.wiki/w/%EC%BD%94%EC%BF%A0%EB%A6%AC%EC%BD%94%20%EC%96%B8%EB%8D%95%EC%97%90%EC%84%9C'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20180823_98/1534986667055smSXm_JPEG/movie_image.jpg"
+                id="mov13"
+                alt="영화13"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20180823_98/1534986667055smSXm_JPEG/movie_image.jpg&title=Flavors of Youth&link=https:\/\/namu.wiki/w/%EC%9A%B0%EB%A6%AC%EC%9D%98%20%EA%B3%84%EC%A0%88%EC%9D%80'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181012_248/15393291265303YsKB_JPEG/movie_image.jpg"
+                id="mov14"
+                alt="영화14"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181012_248/15393291265303YsKB_JPEG/movie_image.jpg&title=진격의 거인 2기 : 각성의 포효&link=https:\/\/namu.wiki/w/%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8(%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%202%EA%B8%B0)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20171212_172/1513041917211ymzov_JPEG/movie_image.jpg"
+                id="mov15"
+                alt="영화15"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20171212_172/1513041917211ymzov_JPEG/movie_image.jpg&title=쏘아올린 불꽃 밑에서 볼까? 옆에서 볼까?&link=https:\/\/namu.wiki/w/%EC%8F%98%EC%95%84%EC%98%AC%EB%A6%B0%20%EB%B6%88%EA%BD%83%2C%20%EB%B0%91%EC%97%90%EC%84%9C%20%EB%B3%BC%EA%B9%8C%3F%20%EC%98%86%EC%97%90%EC%84%9C%20%EB%B3%BC%EA%B9%8C%3F(2017)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20121002_47/1349164131029XDIsz_JPEG/movie_image.jpg"
+                id="mov16"
+                alt="영화16"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20121002_47/1349164131029XDIsz_JPEG/movie_image.jpg&title=이누야샤&link=https:\/\/namu.wiki/w/%EC%9D%B4%EB%88%84%EC%95%BC%EC%83%A4/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98?from=%EC%9D%B4%EB%88%84%EC%95%BC%EC%83%A4%20%EC%95%A0%EB%8B%88'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/f/ff/%EC%A7%B1%EA%B5%AC%EB%8A%94_%EB%AA%BB%EB%A7%90%EB%A0%A4_%EA%B7%B9%EC%9E%A5%ED%8C%90-%ED%83%9C%ED%92%8D%EC%9D%84_%EB%B6%80%EB%A5%B4%EB%8A%94_%EB%85%B8%EB%9E%98%ED%95%98%EB%8A%94_%EC%97%89%EB%8D%A9%EC%9D%B4_%ED%8F%AD%ED%83%84%21_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov17"
+                alt="영화17"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/f/ff/%EC%A7%B1%EA%B5%AC%EB%8A%94_%EB%AA%BB%EB%A7%90%EB%A0%A4_%EA%B7%B9%EC%9E%A5%ED%8C%90-%ED%83%9C%ED%92%8D%EC%9D%84_%EB%B6%80%EB%A5%B4%EB%8A%94_%EB%85%B8%EB%9E%98%ED%95%98%EB%8A%94_%EC%97%89%EB%8D%A9%EC%9D%B4_%ED%8F%AD%ED%83%84%21_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=짱구는 못말려 극장판 : 태풍을 부르는 노래하는 엉덩이 폭탄!&link=https:\/\/namu.wiki/w/%EC%A7%B1%EA%B5%AC%EB%8A%94%20%EB%AA%BB%EB%A7%90%EB%A0%A4(%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98)?from=%EC%A7%B1%EA%B5%AC%EB%8A%94%20%EB%AA%BB%EB%A7%90%EB%A0%A4'"
+            />
+            <img
+                src="https://an2-img.amz.wtchn.net/image/v1/watcha/image/upload/c_fill,h_400,q_80,w_280/v1576211842/fpjee8xzrozdizut3dhv.jpg"
+                id="mov18"
+                alt="영화18"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/an2-img.amz.wtchn.net/image/v1/watcha/image/upload/c_fill,h_400,q_80,w_280/v1576211842/fpjee8xzrozdizut3dhv.jpg&title=니노쿠니&link=https:\/\/namu.wiki/w/%EB%8B%88%EB%85%B8%EC%BF%A0%EB%8B%88(2019)?from=%EB%8B%88%EB%85%B8%EC%BF%A0%EB%8B%88%28%EA%B7%B9%EC%9E%A5%ED%8C%90%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%29'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111221_49/1324464583339j9yyg_JPEG/movie_image.jpg"
+                id="mov19"
+                alt="영화19"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111221_49/1324464583339j9yyg_JPEG/movie_image.jpg&title=개구리 중사 케로로 : 최종병기 키루루&link=https:\/\/namu.wiki/w/%EA%B0%9C%EA%B5%AC%EB%A6%AC%20%EC%A4%91%EC%82%AC%20%EC%BC%80%EB%A1%9C%EB%A1%9C'"
+            />
+            <img
+                src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2017/04/27/jQp7DEA0PQYZ636288864971102647.jpg"
+                id="mov20"
+                alt="영화20"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/talkimg.imbc.com/TVianUpload/tvian/TViews/image/2017/04/27/jQp7DEA0PQYZ636288864971102647.jpg&title=루팡 3세 : 칼리오스트로의 성&link=https:\/\/namu.wiki/w/%EB%A3%A8%ED%8C%A1%203%EC%84%B8%20%EC%B9%BC%EB%A6%AC%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A1%9C%EC%9D%98%20%EC%84%B1'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/thumb/4/48/%EA%B2%8C%EB%93%9C%EC%A0%84%EA%B8%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%EA%B2%8C%EB%93%9C%EC%A0%84%EA%B8%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov21"
+                alt="영화21"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/thumb/4/48/%EA%B2%8C%EB%93%9C%EC%A0%84%EA%B8%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%EA%B2%8C%EB%93%9C%EC%A0%84%EA%B8%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=게드전기 : 어스시의 전설&link=https:\/\/namu.wiki/w/%EA%B2%8C%EB%93%9C%EC%A0%84%EA%B8%B0'"
+            />
+            <img
+                src="https://img.etoday.co.kr/pto_db/2020/08/600/20200828161742_1503604_411_590.jpg"
+                id="mov22"
+                alt="영화22"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img.etoday.co.kr/pto_db/2020/08/600/20200828161742_1503604_411_590.jpg&title=바람계곡의 나우시카&link=https:\/\/namu.wiki/w/%EB%B0%94%EB%9E%8C%EA%B3%84%EA%B3%A1%EC%9D%98%20%EB%82%98%EC%9A%B0%EC%8B%9C%EC%B9%B4'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/thumb/a/a0/%EB%A7%88%EB%A3%A8%EB%B0%91%EC%95%84%EB%A6%AC%EC%97%90%ED%8B%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%EB%A7%88%EB%A3%A8%EB%B0%91%EC%95%84%EB%A6%AC%EC%97%90%ED%8B%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov23"
+                alt="영화23"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/thumb/a/a0/%EB%A7%88%EB%A3%A8%EB%B0%91%EC%95%84%EB%A6%AC%EC%97%90%ED%8B%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%EB%A7%88%EB%A3%A8%EB%B0%91%EC%95%84%EB%A6%AC%EC%97%90%ED%8B%B0_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=마루 밑 아리에티&link=https:\/\/namu.wiki/w/%EB%A7%88%EB%A3%A8%20%EB%B0%91%20%EC%95%84%EB%A6%AC%EC%97%90%ED%8B%B0'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181107_60/1541557981243Raqh1_JPEG/movie_image.jpg"
+                id="mov24"
+                alt="영화24"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181107_60/1541557981243Raqh1_JPEG/movie_image.jpg&title=일곱개의 대죄 : 천공의 포로&link=https:\/\/namu.wiki/w/%EC%9D%BC%EA%B3%B1%20%EA%B0%9C%EC%9D%98%20%EB%8C%80%EC%A3%84(%EB%A7%8C%ED%99%94)/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/9/9b/%EB%A7%88%EB%85%80%EB%B0%B0%EB%8B%AC%EB%B6%80%ED%82%A4%ED%82%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov25"
+                alt="영화25"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/9/9b/%EB%A7%88%EB%85%80%EB%B0%B0%EB%8B%AC%EB%B6%80%ED%82%A4%ED%82%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=마녀 배달부 키키&link=https:\/\/namu.wiki/w/%EB%A7%88%EB%85%80%20%EB%B0%B0%EB%8B%AC%EB%B6%80%20%ED%82%A4%ED%82%A4'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/3/3e/%EC%9A%B8%EA%B3%A0%EC%8B%B6%EC%9D%80%EB%82%98%EB%8A%94%EA%B3%A0%EC%96%91%EC%9D%B4%EA%B0%80%EB%A9%B4%EC%9D%84%EC%93%B4%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov26"
+                alt="영화26"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/3/3e/%EC%9A%B8%EA%B3%A0%EC%8B%B6%EC%9D%80%EB%82%98%EB%8A%94%EA%B3%A0%EC%96%91%EC%9D%B4%EA%B0%80%EB%A9%B4%EC%9D%84%EC%93%B4%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=울고싶은 나는 고양이 가면을 쓴다&link=https:\/\/namu.wiki/w/%EC%9A%B8%EA%B3%A0%20%EC%8B%B6%EC%9D%80%20%EB%82%98%EB%8A%94%20%EA%B3%A0%EC%96%91%EC%9D%B4%20%EA%B0%80%EB%A9%B4%EC%9D%84%20%EC%93%B4%EB%8B%A4'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_63/1324483671210VVU36_JPEG/movie_image.jpg"
+                id="mov27"
+                alt="영화27"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_63/1324483671210VVU36_JPEG/movie_image.jpg&title=모노노케 히메&link=https:\/\/namu.wiki/w/%EB%AA%A8%EB%85%B8%EB%85%B8%EC%BC%80%20%ED%9E%88%EB%A9%94'"
+            />
+            <img
+                src="https://img.hankyung.com/photo/201904/01.19538221.1.jpg"
+                id="mov28"
+                alt="영화28"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img.hankyung.com/photo/201904/01.19538221.1.jpg&title=이웃집 토토로&link=https:\/\/namu.wiki/w/%EC%9D%B4%EC%9B%83%EC%A7%91%20%ED%86%A0%ED%86%A0%EB%A1%9C'"
+            />
+        </section>
+    </body>
+</html>

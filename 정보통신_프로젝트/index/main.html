@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="css/font.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>SOPANG</h1>
+        <br />
+        <hr />
+        <div id="your_emotion">
+            <center>
+                <br /><br /><br /><br /><br />
+                <img src="https://blog.kakaocdn.net/dn/cfxUQI/btqUzwLY1Ir/rivqxR9gYPvrRK8XbJTdc1/img.png" alt="기분" id="mainImg1" />
+                <img src="https://blog.kakaocdn.net/dn/dbO5Et/btqUOBqUoCn/1CeKr16xQKz7Sd7lHLBXZk/img.png" alt="핸드폰" id="mainImg2" />
+                <img src="https://blog.kakaocdn.net/dn/cmAWPX/btqUJYOfddn/zrbzxTAkeBHP9KfyvdD3Ok/img.png" alt="" id="mainImg3" /><br />
+                <button class="moving" id="emotion" onclick="location.href='./user/choose_emotion.html'">&nbsp&nbsp&nbsp기분별&nbsp&nbsp&nbsp</button>
+                <button class="moving" id="webtoon" onclick="location.href='./original_recommend/recommend_webtoon.html'">웹툰 원작별</button>
+                <button class="moving" id="novel" onclick="location.href='./original_recommend/recommend_novel.html'">소설 원작별</button>
+                <br /><br /><br /><br /><br />
+                <div>
+                    <button id="login" onclick="location.href='/login'">Login</button>
+                </div>
+                <br />
+                <span id="askSingin">아직 회원가입을 하지 않았다면?</span><br />
+                <span id="point">▽</span>
+                <div><button id="signup" onclick="location.href='/signup'">Register</button><br /><br /><br /></div>
+            </center>
+        </div>
+        <script>
+            $('.hover').mouseleave(function () {
+                $(this).removeClass('hover');
+            });
+        </script>
+    </body>
+</html>

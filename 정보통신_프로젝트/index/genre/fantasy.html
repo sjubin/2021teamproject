@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/Recommendation.css" />
+        <link href="../css/font.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <img src="https://blog.kakaocdn.net/dn/TdgeN/btqUM8JiopP/8hYAJkWDU6WPzLFWkFgGBK/img.jpg" onclick='location.href = "../main.html"' class="img-circle" />
+            <div class="img-circle-background"></div>
+            <ul class="genre">
+                <li class="genre" onclick='location.href="../genre/romance.html"'>ROMANCE</li>
+                <li class="genre" onclick='location.href="../genre/horror.html"'>HORROR</li>
+                <li class="genre" onclick='location.href="../genre/action.html"'>ACTION</li>
+                <li class="genre" onclick='location.href="../genre/science_fiction.html"'>SCIENCE FICTION</li>
+                <li class="genre" onclick='location.href="../genre/comedy.html"'>COMEDY</li>
+                <li class="genre" onclick='location.href="../genre/fantasy.html"'>FANTASY</li>
+                <li class="genre" onclick='location.href="../genre/musical.html"'>MUSICAL</li>
+                <li class="genre" onclick='location.href="../genre/animation.html"'>ANIMATION</li>
+            </ul>
+        </nav>
+        <section id="sec-search-bar">
+            <form class="search">
+                <input type="text" class="search-bar" placeholder="검색" />
+            </form>
+        </section>
+        <section id="sec-phrases">
+            <div class="phrases">FANTASY</div>
+        </section>
+        <section id="sec-movie-poster">
+            <img
+                src="https://newsimg.sedaily.com/2019/01/08/1VDYHF0CC2_1.jpg"
+                id="mov1"
+                alt="영화1"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/newsimg.sedaily.com/2019/01/08/1VDYHF0CC2_1.jpg&title=내안의 그놈&link=https:\/\/namu.wiki/w/%EB%82%B4%EC%95%88%EC%9D%98%20%EA%B7%B8%EB%86%88'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20190409_174/1554774642995SWGiz_JPEG/movie_image.jpg"
+                id="mov2"
+                alt="영화2"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20190409_174/1554774642995SWGiz_JPEG/movie_image.jpg&title=판의 미로 : 오필리아와 세 개의 열쇠&link=https:\/\/namu.wiki/w/%ED%8C%90%EC%9D%98%20%EB%AF%B8%EB%A1%9C'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/1/18/%EC%8B%A0%EA%B3%BC%ED%95%A8%EA%BB%98_%EC%A3%84%EC%99%80_%EB%B2%8C.jpg"
+                id="mov3"
+                alt="영화3"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/1/18/%EC%8B%A0%EA%B3%BC%ED%95%A8%EA%BB%98_%EC%A3%84%EC%99%80_%EB%B2%8C.jpg&title=신과 함께 : 죄와 벌&link=https:\/\/namu.wiki/w/%EC%8B%A0%EA%B3%BC%ED%95%A8%EA%BB%98-%EC%A3%84%EC%99%80%20%EB%B2%8C'"
+            />
+            <img
+                src="https://newsimg.sedaily.com/2018/07/03/1S1XVED4A2_1.jpg"
+                id="mov4"
+                alt="영화4"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/newsimg.sedaily.com/2018/07/03/1S1XVED4A2_1.jpg&title=신과 함께 : 인과 연&link=https:\/\/namu.wiki/w/%EC%8B%A0%EA%B3%BC%ED%95%A8%EA%BB%98-%EC%9D%B8%EA%B3%BC%20%EC%97%B0'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20171127_196/1511757905894vduNA_JPEG/movie_image.jpg"
+                id="mov5"
+                alt="영화5"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20171127_196/1511757905894vduNA_JPEG/movie_image.jpg&title=쥬만지 : 새로운 세계&link=https:\/\/namu.wiki/w/%EC%A5%AC%EB%A7%8C%EC%A7%80:%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%84%B8%EA%B3%84'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_264/13245805774065e9Mn_JPEG/movie_image.jpg"
+                id="mov6"
+                alt="영화6"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_264/13245805774065e9Mn_JPEG/movie_image.jpg&title=AI&link=https:\/\/namu.wiki/w/A.I.(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181019_236/1539926790655oHv5z_JPEG/movie_image.jpg"
+                id="mov7"
+                alt="영화7"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181019_236/1539926790655oHv5z_JPEG/movie_image.jpg&title=해리포터와 마법사의 돌&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EB%A7%88%EB%B2%95%EC%82%AC%EC%9D%98%20%EB%8F%8C(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_244/1324530400723IXN6V_JPEG/movie_image.jpg"
+                id="mov8"
+                alt="영화8"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_244/1324530400723IXN6V_JPEG/movie_image.jpg&title=해리포터와 비밀의 방&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EB%B9%84%EB%B0%80%EC%9D%98%20%EB%B0%A9(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20200214_237/1581663194489UtDmT_JPEG/movie_image.jpg"
+                id="mov9"
+                alt="영화9"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20200214_237/1581663194489UtDmT_JPEG/movie_image.jpg&title=해리포터와 아즈카반의 죄수&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EC%95%84%EC%A6%88%EC%B9%B4%EB%B0%98%EC%9D%98%20%EC%A3%84%EC%88%98(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_278/1324534483252PpUWR_JPEG/movie_image.jpg"
+                id="mov10"
+                alt="영화10"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_278/1324534483252PpUWR_JPEG/movie_image.jpg&title=해리포터와 불의 잔&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EB%B6%88%EC%9D%98%20%EC%9E%94(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_88/1324531626849yyPiO_JPEG/movie_image.jpg"
+                id="mov11"
+                alt="영화11"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_88/1324531626849yyPiO_JPEG/movie_image.jpg&title=해리포터와 불사조 기사단&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EB%B6%88%EC%82%AC%EC%A1%B0%20%EA%B8%B0%EC%82%AC%EB%8B%A8(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_225/1324585869455atuMF_JPEG/movie_image.jpg"
+                id="mov12"
+                alt="영화12"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_225/1324585869455atuMF_JPEG/movie_image.jpg&title=해리포터와 혼혈왕자&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%ED%98%BC%ED%98%88%20%EC%99%95%EC%9E%90(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_21/1324628831674hTrFY_JPEG/movie_image.jpg"
+                id="mov13"
+                alt="영화13"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_21/1324628831674hTrFY_JPEG/movie_image.jpg&title=해리포터와 죽음의 성물 part1&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EC%A3%BD%EC%9D%8C%EC%9D%98%20%EC%84%B1%EB%AC%BC%20-%201%EB%B6%80'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_74/1324640419980SJD8k_JPEG/movie_image.jpg"
+                id="mov14"
+                alt="영화14"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_74/1324640419980SJD8k_JPEG/movie_image.jpg&title=해리포터와 죽음의 성물 part2&link=https:\/\/namu.wiki/w/%ED%95%B4%EB%A6%AC%20%ED%8F%AC%ED%84%B0%EC%99%80%20%EC%A3%BD%EC%9D%8C%EC%9D%98%20%EC%84%B1%EB%AC%BC%20-%202%EB%B6%80'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20160913_124/1473736308649Wktj4_JPEG/movie_image.jpg"
+                id="mov15"
+                alt="영화15"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20160913_124/1473736308649Wktj4_JPEG/movie_image.jpg&title=미스 페레그린과 이상한 아이들의 집&link=https:\/\/namu.wiki/w/%EB%AF%B8%EC%8A%A4%20%ED%8E%98%EB%A0%88%EA%B7%B8%EB%A6%B0%EA%B3%BC%20%EC%9D%B4%EC%83%81%ED%95%9C%20%EC%95%84%EC%9D%B4%EB%93%A4%EC%9D%98%20%EC%A7%91'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/e/eb/%EC%A7%80%EA%B8%88_%EB%A7%8C%EB%82%98%EB%9F%AC_%EA%B0%91%EB%8B%88%EB%8B%A4_%282018%EB%85%84_%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov16"
+                alt="영화16"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/e/eb/%EC%A7%80%EA%B8%88_%EB%A7%8C%EB%82%98%EB%9F%AC_%EA%B0%91%EB%8B%88%EB%8B%A4_%282018%EB%85%84_%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=지금 만나러 갑니다&link=https:\/\/namu.wiki/w/%EC%A7%80%EA%B8%88%20%EB%A7%8C%EB%82%98%EB%9F%AC%20%EA%B0%91%EB%8B%88%EB%8B%A4'"
+            />
+            <img
+                src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/edR/image/hLo2V5vL316dGkBnVrYokZi4Adw.jpg"
+                id="mov17"
+                alt="영화17"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http:\/\/t1.daumcdn.net/brunch/service/user/edR/image/hLo2V5vL316dGkBnVrYokZi4Adw.jpg&title=모글리&link=https:\/\/namu.wiki/w/%EB%AA%A8%EA%B8%80%EB%A6%AC:%20%EC%A0%95%EA%B8%80%EC%9D%98%20%EC%A0%84%EC%84%A4'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/thumb/f/f0/%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EB%B2%88%EA%B0%9C%EB%8F%84%EB%91%91_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EB%B2%88%EA%B0%9C%EB%8F%84%EB%91%91_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov18"
+                alt="영화18"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/thumb/f/f0/%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EB%B2%88%EA%B0%9C%EB%8F%84%EB%91%91_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EB%B2%88%EA%B0%9C%EB%8F%84%EB%91%91_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=퍼시 잭슨과 번개도둑&link=https:\/\/namu.wiki/w/%ED%8D%BC%EC%8B%9C%20%EC%9E%AD%EC%8A%A8%EA%B3%BC%20%EC%98%AC%EB%A6%BC%ED%8F%AC%EC%8A%A4%EC%9D%98%20%EC%8B%A0%EB%93%A4'"
+            />
+            <img
+                src="https://www.gudigadi.com/data/file/news/3394635984_YxvKUPnS_1368668226.jpg"
+                id="mov19"
+                alt="영화19"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/www.gudigadi.com/data/file/news/3394635984_YxvKUPnS_1368668226.jpg&title=맨 오브 스틸&link=https:\/\/namu.wiki/w/%EB%A7%A8%20%EC%98%A4%EB%B8%8C%20%EC%8A%A4%ED%8B%B8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_255/13246307390419t8fV_JPEG/movie_image.jpg"
+                id="mov20"
+                alt="영화20"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_255/13246307390419t8fV_JPEG/movie_image.jpg&title=조선 명탐정 : 각시투구꽃의 비밀&link=https:\/\/namu.wiki/w/%EC%A1%B0%EC%84%A0%EB%AA%85%ED%83%90%EC%A0%95%20%EC%8B%9C%EB%A6%AC%EC%A6%88'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181011_31/1539243181778X4C4H_JPEG/movie_image.jpg"
+                id="mov21"
+                alt="영화21"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181011_31/1539243181778X4C4H_JPEG/movie_image.jpg&title=구스범스 : 몬스터의 역습&link=https:\/\/namu.wiki/w/%EA%B5%AC%EC%8A%A4%EB%B2%94%EC%8A%A4:%20%EB%AA%AC%EC%8A%A4%ED%84%B0%EC%9D%98%20%EC%97%AD%EC%8A%B5'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181012_248/15393291265303YsKB_JPEG/movie_image.jpg"
+                id="mov22"
+                alt="영화22"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181012_248/15393291265303YsKB_JPEG/movie_image.jpg&title=진격의 거인 2기&link=https:\/\/namu.wiki/w/%EA%B7%B9%EC%9E%A5%ED%8C%90%20%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8%202%EA%B8%B0:%20%EA%B0%81%EC%84%B1%EC%9D%98%20%ED%8F%AC%ED%9A%A8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20151207_173/1449468548415FhA3w_JPEG/movie_image.jpg"
+                id="mov23"
+                alt="영화23"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20151207_173/1449468548415FhA3w_JPEG/movie_image.jpg&title=이웃집에 신이 산다&link=https:\/\/namu.wiki/w/%EC%9D%B4%EC%9B%83%EC%A7%91%EC%97%90%20%EC%8B%A0%EC%9D%B4%20%EC%82%B0%EB%8B%A4'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/8/81/%EB%B8%94%EB%A6%AC%EC%B9%98_%EC%98%81%ED%99%94_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov24"
+                alt="영화24"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/8/81/%EB%B8%94%EB%A6%AC%EC%B9%98_%EC%98%81%ED%99%94_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=블리치&link=https:\/\/namu.wiki/w/%EB%B8%94%EB%A6%AC%EC%B9%98(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_128/1324551257240i2tXP_JPEG/movie_image.jpg"
+                id="mov25"
+                alt="영화25"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_128/1324551257240i2tXP_JPEG/movie_image.jpg&title=더 패밀리 맨&link=https:\/\/ko.wikipedia.org/wiki/%ED%8C%A8%EB%B0%80%EB%A6%AC_%EB%A7%A8_(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20150710_15/1436489573481hI8Mq_JPEG/movie_image.jpg"
+                id="mov26"
+                alt="영화26"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20150710_15/1436489573481hI8Mq_JPEG/movie_image.jpg&title=미쓰 와이프&link=https:\/\/namu.wiki/w/%EB%AF%B8%EC%93%B0%20%EC%99%80%EC%9D%B4%ED%94%84'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/f/f4/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%28%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov27"
+                alt="영화27"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/f/f4/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%28%EC%98%81%ED%99%94%29_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=콘스탄틴&link=https:\/\/namu.wiki/w/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://img.hankyung.com/photo/201801/20180117173227_5a5f0a1b4b4f7_1.jpg"
+                id="mov28"
+                alt="영화28"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img.hankyung.com/photo/201801/20180117173227_5a5f0a1b4b4f7_1.jpg&title=메이즈러너 : 데스큐어&link=https:\/\/namu.wiki/w/%EB%A9%94%EC%9D%B4%EC%A6%88%20%EB%9F%AC%EB%84%88:%20%EB%8D%B0%EC%8A%A4%20%ED%81%90%EC%96%B4'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_62/13246192985897cbfP_JPEG/movie_image.jpg"
+                id="mov29"
+                alt="영화29"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_62/13246192985897cbfP_JPEG/movie_image.jpg&title=라스터 에어벤더&link=https:\/\/namu.wiki/w/%EB%9D%BC%EC%8A%A4%ED%8A%B8%20%EC%97%90%EC%96%B4%EB%B2%A4%EB%8D%94'"
+            />
+            <img
+                src="https://m.media-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_.jpg"
+                id="mov30"
+                alt="영화30"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/m.media-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_.jpg&title=X-MEN : apocalypse&link=https:\/\/namu.wiki/w/%EC%97%91%EC%8A%A4%EB%A7%A8(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20130522_254/1369216857325A4vgn_JPEG/movie_image.jpg"
+                id="mov31"
+                alt="영화31"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20130522_254/1369216857325A4vgn_JPEG/movie_image.jpg&title=맨 오브 스틸&link=https:\/\/namu.wiki/w/%EB%A7%A8%20%EC%98%A4%EB%B8%8C%20%EC%8A%A4%ED%8B%B8'"
+            />
+            <img
+                src="https://pbs.twimg.com/media/D4P4FvsUwAAIqHZ.jpg"
+                id="mov32"
+                alt="영화32"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/pbs.twimg.com/media/D4P4FvsUwAAIqHZ.jpg&title=프라이드&link=https:\/\/namu.wiki/w/Pride(2004%EB%85%84%20%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/thumb/0/0e/%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EA%B4%B4%EB%AC%BC%EC%9D%98%EB%B0%94%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EA%B4%B4%EB%AC%BC%EC%9D%98%EB%B0%94%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov33"
+                alt="영화33"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/thumb/0/0e/%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EA%B4%B4%EB%AC%BC%EC%9D%98%EB%B0%94%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg/220px-%ED%8D%BC%EC%8B%9C%EC%9E%AD%EC%8A%A8%EA%B3%BC%EA%B4%B4%EB%AC%BC%EC%9D%98%EB%B0%94%EB%8B%A4_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=퍼시 잭슨과 괴물의 바다&link=https:\/\/namu.wiki/w/%ED%8D%BC%EC%8B%9C%20%EC%9E%AD%EC%8A%A8%EA%B3%BC%20%EC%98%AC%EB%A6%BC%ED%8F%AC%EC%8A%A4%EC%9D%98%20%EC%8B%A0%EB%93%A4'"
+            />
+            <img
+                src="https://an2-img.amz.wtchn.net/image/v1/watcha/image/upload/c_fill,h_400,q_80,w_280/v1554967993/avvgugbjydpzzthbflcu.jpg"
+                id="mov34"
+                alt="영화34"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/an2-img.amz.wtchn.net/image/v1/watcha/image/upload/c_fill,h_400,q_80,w_280/v1554967993/avvgugbjydpzzthbflcu.jpg&title=젠틀맨리그&link=https:\/\/namu.wiki/w/%EC%A0%A0%ED%8B%80%EB%A7%A8%20%EB%A6%AC%EA%B7%B8(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://www.kyeonggi.com/news/photo/201906/2115604_906872_3640.jpg"
+                id="mov35"
+                alt="영화35"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/www.kyeonggi.com/news/photo/201906/2115604_906872_3640.jpg&title=스노우 화이트 앤 더 헌츠맨&link=https:\/\/namu.wiki/w/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%95%A4%20%EB%8D%94%20%ED%97%8C%EC%B8%A0%EB%A7%A8'"
+            />
+        </section>
+    </body>
+</html>

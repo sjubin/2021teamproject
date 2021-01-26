@@ -1,0 +1,97 @@
+:root {
+    --pointBlue: #504dda; /*bd5d38*/
+    --lightBule: rgb(234, 240, 255);
+    --batang: rgb(243, 243, 243);
+}
+
+* {
+    background-color: var(--batang);
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: 'Muli';
+}
+
+nav {
+    width: 17rem;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    position: fixed;
+
+    background-color: var(--pointBlue);
+}
+
+.search {
+    float: right;
+    padding: 0.8em;
+    margin: 0.5rem 0.5rem 0px 0px;
+
+    background-color: var(--lightBule);
+}
+
+.img-circle {
+    max-width: 10rem;
+    border-radius: 50%;
+    margin: 5rem 0rem 0rem;
+}
+
+#emotion-sad {
+    max-width: 3.5rem;
+    margin: 0.5rem 0px 0.5rem 0.5rem;
+}
+
+.img-circle-background {
+    max-width: 15rem;
+    border-radius: 50%;
+    margin: 5rem 1rem;
+
+    background-color: white;
+    opacity: 50%;
+}
+
+.genre,
+#go-to-main-page {
+    list-style: none;
+    padding: 0px;
+    line-height: 1.8em;
+    font-family: 'Saira Extra Condensed';
+    font-size: 1.5rem;
+    text-align: center;
+
+    color: white;
+    background-color: var(--pointBlue);
+}
+
+#go-to-main-page {
+    margin-top: 4rem;
+}
+
+.phrases {
+    margin: 0px 0px 0.5rem 0px;
+    padding-left: 30rem;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+
+    background-color: var(--lightBule);
+}
+
+#sec-movie-poster {
+    margin: 0px 2rem 0px 19rem;
+    text-align: center;
+}
+
+.poster {
+    width: 15%;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.7rem gray;
+}

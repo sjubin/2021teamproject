@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/signin.css" />
+    </head>
+    <body>
+        <section class="sigin-form">
+            <h1>SIGN UP</h1>
+            <form method="POST" action="signup.html">
+                <div class="int-area">
+                    <input type="text" name="name" id="name" autocomplete="off" required />
+                    <label for="name">NAME</label>
+                </div>
+                <div class="int-area">
+                    <input type="text" name="id" id="id" autocomplete="off" required />
+                    <label for="id">ID</label>
+                </div>
+                <div class="int-area">
+                    <input type="password" name="pw" id="pw" autocomplete="off" required />
+                    <label for="pw">PASSWORD</label>
+                </div>
+                <div class="int-area">
+                    <input type="password" name="pwc" id="pwc" autocomplete="off" required />
+                    <label for="pwc">PASSWORDCHECK</label>
+                </div>
+                <div class="int-area">
+                    <input type="email" name="email" id="email" autocomplete="off" required />
+                    <label for="email">EMAIL</label>
+                </div>
+                <div id="age_select">
+                    <form>
+                        나이 :
+                        <select name="age">
+                            <option value="2000">2000년 생</option>
+                            <option value="2001">2001년 생</option>
+                            <option value="2002">2002년 생</option>
+                            <option value="2003">2003년 생</option>
+                            <option value="2004">2004년 생</option>
+                            <option value="2005">2005년 생</option>
+                            <option value="2006">2006년 생</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="bbtn-area"><input type="checkbox" name="agree" /> 개인정보 수집 동의</div>
+                <div class="btn-area">
+                    <input type="submit" class="btn-area" value="계정 생성" />
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

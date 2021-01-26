@@ -1,0 +1,254 @@
+:root {
+    --pointBlue: #504dda; /*bd5d38*/
+    --lightBule: rgb(234, 240, 255);
+    --batang: rgb(243, 243, 243);
+}
+
+* {
+    background-color: var(--batang);
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+nav {
+    width: 17rem;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    position: fixed;
+
+    background-color: var(--pointBlue);
+}
+
+.search {
+    float: right;
+    padding: 0.8em;
+    margin: 0.5rem 0.5rem 0px 0px;
+
+    background-color: var(--lightBule);
+}
+
+.img-circle {
+    max-width: 15rem;
+    margin: 5rem 0rem 0rem;
+}
+
+#emotion-sad {
+    max-width: 3.5rem;
+    margin: 0.5rem 0px 0.5rem 0.5rem;
+}
+
+.img-circle-background {
+    max-width: 15rem;
+    border-radius: 50%;
+    margin: 5rem 1rem;
+
+    background-color: white;
+    opacity: 50%;
+}
+
+.genre,
+#go-to-main-page {
+    list-style: none;
+    padding: 0px;
+    line-height: 1.8em;
+    font-family: 'Saira Extra Condensed';
+    font-size: 1.5rem;
+
+    color: white;
+    background-color: var(--pointBlue);
+}
+
+#go-to-main-page {
+    margin-top: 4rem;
+}
+
+#sec-movie-explain {
+    margin: 0px 2rem 0px 17.3rem;
+}
+
+.poster {
+    float: left;
+    width: 30%;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.7rem gray;
+}
+
+span,
+form {
+    display: inline-block;
+}
+
+hr {
+    width: 10%;
+    height: 10px;
+    display: inline-block;
+    border: 0;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;
+    margin: 25rem 0rem 0rem 8rem;
+
+    background-color: var(--pointBlue);
+}
+
+#movie-name {
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+#summary {
+    font-size: 1.2rem;
+    max-width: 62%;
+    margin: 1rem;
+    overflow: auto;
+    line-height: 160%;
+}
+
+#star_grade a {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: gray;
+}
+
+#star_grade a.on {
+    color: red;
+}
+
+.movie-review {
+    list-style: none;
+    display: block;
+    margin: 1rem 1rem 1rem 19rem;
+}
+
+#review-profile {
+    max-width: 3rem;
+    border-radius: 50%;
+    margin: 1rem 0rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;
+}
+#sec-movie-explain {
+    text-align: center;
+}
+#summary {
+    margin: 30px;
+}
+#test {
+    margin-left: 80px;
+    padding-top: 80px;
+}
+#sec-movie-explai {
+    text-align: center;
+}
+#movie-name {
+    text-align: center;
+}
+#remove_button {
+    margin-top: 3px;
+}
+#review_comment {
+    margin-top: 5px;
+}
+#no_poster {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+#we_poster {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+#movie_title {
+    text-shadow: 2px 4px 5px gray;
+    margin: 0px;
+}
+#original_writer #original_title #webtoon_site #webtoon_period {
+    text-shadow: 2px 4px 2px var(--pointBlue);
+    margin: 2px;
+}
+#re_poster {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+textarea {
+    border: 2px dashed gray;
+}
+
+textarea:hover {
+    border: 2px solid gray;
+}
+
+#remove_button,
+#button {
+    border: 1px solid gray;
+    border-radius: 5%;
+    color: gray;
+}
+
+#remove_button:hover,
+#button:hover {
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background-color: gray;
+    transition: all 0.3s;
+}
+
+p,
+#summary {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.moving {
+    background-color: var(--pointBlue);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 17px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.moving:before,
+.moving:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+.moving:before {
+    border-color: var(--pointBlue);
+    border-right-width: 2px;
+    border-top-width: 2px;
+    right: -5px;
+    top: -5px;
+}
+.moving:after {
+    border-bottom-width: 2px;
+    border-color: var(--pointBlue);
+    border-left-width: 2px;
+    bottom: -5px;
+    left: -5px;
+}
+.moving:hover:before,
+.moving:hover:after {
+    height: 100%;
+    width: 100%;
+}

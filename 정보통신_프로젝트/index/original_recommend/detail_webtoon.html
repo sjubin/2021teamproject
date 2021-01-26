@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/poster.css" />
+        <link href="../css/font.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <img src="https://blog.kakaocdn.net/dn/TdgeN/btqUM8JiopP/8hYAJkWDU6WPzLFWkFgGBK/img.jpg" onclick='location.href = "../main.html"' class="img-circle" />
+            <div class="img-circle-background"></div>
+            <ul class="genre">
+                <li class="genre" onclick='location.href="../genre/romance.html"'>ROMANCE</li>
+                <li class="genre" onclick='location.href="../genre/horror.html"'>HORROR</li>
+                <li class="genre" onclick='location.href="../genre/action.html"'>ACTION</li>
+                <li class="genre" onclick='location.href="../genre/science_fiction.html"'>SCIENCE FICTION</li>
+                <li class="genre" onclick='location.href="../genre/comedy.html"'>COMEDY</li>
+                <li class="genre" onclick='location.href="../genre/fantasy.html"'>FANTASY</li>
+                <li class="genre" onclick='location.href="../genre/musical.html"'>MUSICAL</li>
+                <li class="genre" onclick='location.href="../genre/animation.html"'>ANIMATION</li>
+            </ul>
+        </nav>
+
+        <section id="sec-movie-explain">
+            <div id="test"></div>
+            <span id="movie-name"></span><br />
+            <span id="star_grade">
+                <a href="#">★</a>
+                <a href="#">★</a>
+                <a href="#">★</a>
+                <a href="#">★</a>
+                <a href="#">★</a> </span
+            ><br />
+            <div id="we_original"></div>
+            <div id="we_writer"></div>
+            <div id="we_show_place"></div>
+            <div id="we_time"></div>
+            <br />
+            <div>더 많은 정보를 원하신다면?</div>
+            <br />
+            <div>▼</div>
+            <br />
+            <div id="we_link"></div>
+        </section>
+        <hr />
+        <section id="sec-movie-review">
+            <ul class="movie-review" id="list">
+                <li>
+                    <div id="comments">
+                        <div class="comemnt">
+                            <p style="font-size: 30px">REVIEW</p>
+                        </div>
+                        <div class="comemnt">
+                            <textarea name="new-com" id="new-com" cols="150%" rows="10" placeholder="입력하세요."></textarea>
+                            <button type="submit" id="button" onclick="submitCom()">등록</button>
+                        </div>
+                        <div class="comemnt">
+                            <div class="com-date" id="comDate"></div>
+                            <div class="com-content" id="comContent"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <script>
+            $('#star_grade a').click(function () {
+                $(this).parent().children('a').removeClass('on'); /* 별점의 on 클래스 전부 제거 */
+                $(this).addClass('on').prevAll('a').addClass('on'); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */
+                return false;
+            });
+            function findGetParameter(parameterName) {
+                var result = null,
+                    tmp = [];
+                location.search
+                    .substr(1)
+                    .split('&')
+                    .forEach(function (item) {
+                        tmp = item.split('=');
+                        if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+                    });
+                return result;
+            }
+            document.getElementById('test').innerHTML = '<img src="' + findGetParameter('poster') + '" id="we_poster" alt="영화 포스터" class="poster">';
+            document.getElementById('movie-name').innerHTML = '<p id="movie_title">' + findGetParameter('title') + '</p>';
+            document.getElementById('we_original').innerHTML = '<p id="original_title"> 제목 : ' + findGetParameter('original') + '</p>';
+            document.getElementById('we_writer').innerHTML = '<p id="original_writer"> 작가 : ' + findGetParameter('author') + '</p>';
+            document.getElementById('we_show_place').innerHTML = '<p id="webtoon_site"> 연재 사이트 : ' + findGetParameter('site') + '</p>';
+            document.getElementById('we_time').innerHTML = '<p id="webtoon_period"> 연재 기간 : ' + findGetParameter('period') + '</p>';
+            document.getElementById('we_link').innerHTML = '<button id="info_button" class="moving" onclick = "location.href = `' + findGetParameter('link') + '`">여기 클릭</button>';
+
+            var button = document.getElementById('button');
+            var input = document.getElementById('new-com');
+            var list = document.getElementById('list');
+            var cnt = 1;
+
+            button.addEventListener('click', clickButton);
+
+            function clickButton() {
+                var temp = document.createElement('li');
+                temp.setAttribute('class', 'list_group_item');
+                temp.setAttribute('id', 'li' + cnt);
+                temp.innerHTML = '<br>';
+                temp.innerHTML +=
+                    "<img src='data:image/png;base64,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' alt='댓글 프로필' id='review-profile'>";
+                temp.innerHTML += "<span id='review_comment'>" + input.value + '</span>';
+                temp.innerHTML += "<button style='float : right ;' id='remove_button' type='button' onclick='remove(" + cnt + ")'>삭제</button>";
+                list.appendChild(temp);
+                cnt++;
+            }
+            function remove(cnt) {
+                var li = document.getElementById('li' + cnt);
+                list.removeChild(li);
+            }
+        </script>
+    </body>
+</html>

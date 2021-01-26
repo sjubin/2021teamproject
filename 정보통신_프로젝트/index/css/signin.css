@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css? family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('smore.png') no-repeat center;
+    overflow: 0.5;
+    background-size: cover;
+}
+body::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 1, 0.3);
+}
+.sigin-form {
+    position: relative;
+    z-index: 2;
+}
+.sigin-form h1 {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.int-area {
+    width: 400px;
+    position: relative;
+    margin-top: 20px;
+}
+.int-area:first-child {
+    margin-top: 0;
+}
+.int-area input {
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+.int-area label {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 18px;
+    color: #fff;
+    transition: top 0.5s ease;
+}
+.int-area input:focus + label,
+.int-area input:valid + label {
+    top: -2px;
+    font-size: 15px;
+    color: #166cea;
+}
+.btn-area {
+    margin-top: 30px;
+}
+.btn-area input {
+    /*계정 생성*/
+    width: 100%;
+    height: 50px;
+    background-color: #166cea;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.bbtn-area {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.bbtn-area checkedbox {
+    width: 70%;
+    height: 40px;
+    background-color: #166cea;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#age_select {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#age_select select {
+    width: 50%;
+    height: 30px;
+    background-color: #166cea;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}

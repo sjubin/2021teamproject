@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SOPANG</title>
+        <link rel="stylesheet" href="../css/Recommendation.css" />
+        <link href="../css/font.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <img src="https://blog.kakaocdn.net/dn/TdgeN/btqUM8JiopP/8hYAJkWDU6WPzLFWkFgGBK/img.jpg" onclick='location.href = "../main.html"' class="img-circle" />
+            <div class="img-circle-background"></div>
+            <ul class="genre">
+                <li class="genre" onclick='location.href="../genre/romance.html"'>ROMANCE</li>
+                <li class="genre" onclick='location.href="../genre/horror.html"'>HORROR</li>
+                <li class="genre" onclick='location.href="../genre/action.html"'>ACTION</li>
+                <li class="genre" onclick='location.href="../genre/science_fiction.html"'>SCIENCE FICTION</li>
+                <li class="genre" onclick='location.href="../genre/comedy.html"'>COMEDY</li>
+                <li class="genre" onclick='location.href="../genre/fantasy.html"'>FANTASY</li>
+                <li class="genre" onclick='location.href="../genre/musical.html"'>MUSICAL</li>
+                <li class="genre" onclick='location.href="../genre/animation.html"'>ANIMATION</li>
+            </ul>
+        </nav>
+        <section id="sec-search-bar">
+            <form class="search">
+                <input type="text" class="search-bar" placeholder="검색" />
+            </form>
+        </section>
+        <section id="sec-phrases">
+            <div class="phrases">COMEDY</div>
+        </section>
+        <section id="sec-movie-poster">
+            <img
+                src="https://www.topstarnews.net/news/photo/201807/447565_98883_4514.jpg"
+                id="mov1"
+                alt="영화1"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/www.topstarnews.net/news/photo/201807/447565_98883_4514.jpg&title=캐치 미 이프 유 캔&link=https:\/\/ko.wikipedia.org/wiki/%EC%BA%90%EC%B9%98_%EB%AF%B8_%EC%9D%B4%ED%94%84_%EC%9C%A0_%EC%BA%94'"
+            />
+            <img
+                src="https://i.pinimg.com/originals/57/65/c6/5765c653c152313b27e8a2b12e15cf3f.jpg"
+                id="mov2"
+                alt="영화2"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/i.pinimg.com/originals/57/65/c6/5765c653c152313b27e8a2b12e15cf3f.jpg&title=전우치&link=https:\/\/namu.wiki/w/%EC%A0%84%EC%9A%B0%EC%B9%98(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://ojsfile.ohmynews.com/STD_IMG_FILE/2019/0114/IE002445004_STD.jpg"
+                id="mov3"
+                alt="영화3"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/ojsfile.ohmynews.com/STD_IMG_FILE/2019/0114/IE002445004_STD.jpg&title=the upside&link=https:\/\/namu.wiki/w/%EC%97%85%EC%82%AC%EC%9D%B4%EB%93%9C'"
+            />
+            <img
+                src="https://cphoto.asiae.co.kr/listimglink/6/2011011310475273713_4.jpg"
+                id="mov4"
+                alt="영화4"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/cphoto.asiae.co.kr/listimglink/6/2011011310475273713_4.jpg&title=헬로우 고스트&link=https:\/\/namu.wiki/w/%ED%97%AC%EB%A1%9C%EC%9A%B0%20%EA%B3%A0%EC%8A%A4%ED%8A%B8'"
+            />
+            <img
+                src="https://i.pinimg.com/originals/1d/02/5e/1d025e5a04e2393b6f8867ec90f00dbc.jpg"
+                id="mov5"
+                alt="영화5"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/i.pinimg.com/originals/1d/02/5e/1d025e5a04e2393b6f8867ec90f00dbc.jpg&title=롤러코스터&link=https:\/\/namu.wiki/w/%EB%A1%A4%EB%9F%AC%EC%BD%94%EC%8A%A4%ED%84%B0(%ED%95%9C%EA%B5%AD%20%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://img.tf.co.kr/article/home/2015/05/11/201542531431320988.jpg"
+                id="mov6"
+                alt="영화6"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img.tf.co.kr/article/home/2015/05/11/201542531431320988.jpg&title=미쓰 와이프&link=https:\/\/namu.wiki/w/%EB%AF%B8%EC%93%B0%20%EC%99%80%EC%9D%B4%ED%94%84'"
+            />
+            <img
+                src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/ZL747RABW4L2X4YSGAHTZ65QJ4.jpg"
+                id="mov7"
+                alt="영화7"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/ZL747RABW4L2X4YSGAHTZ65QJ4.jpg&title=아빠는 딸&link=https:\/\/namu.wiki/w/%EC%95%84%EB%B9%A0%EB%8A%94%20%EB%94%B8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20160519_248/1463650220674Q7dRl_JPEG/movie_image.jpg"
+                id="mov8"
+                alt="영화8"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20160519_248/1463650220674Q7dRl_JPEG/movie_image.jpg&title=굿바이 싱글&link=https:\/\/namu.wiki/w/%EA%B5%BF%EB%B0%94%EC%9D%B4%20%EC%8B%B1%EA%B8%80'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/2/22/%EC%A5%AC%EB%A7%8C%EC%A7%80_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov9"
+                alt="영화9"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/2/22/%EC%A5%AC%EB%A7%8C%EC%A7%80_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=쥬만지&link=https:\/\/namu.wiki/w/%EC%A5%90%EB%9D%BC%EA%B8%B0%20%EC%9B%94%EB%93%9C'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111216_284/1324028982380bmlWA_JPEG/movie_image.jpg"
+                id="mov10"
+                alt="영화10"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111216_284/1324028982380bmlWA_JPEG/movie_image.jpg&title=백 투더 퓨처&link=https:\/\/namu.wiki/w/%EB%B0%B1%20%ED%88%AC%20%EB%8D%94%20%ED%93%A8%EC%B2%98%20%EC%8B%9C%EB%A6%AC%EC%A6%88?from=%EB%B0%B1%ED%88%AC%EB%8D%94%ED%93%A8%EC%B2%98'"
+            />
+            <img
+                src="https://upload.wikimedia.org/wikipedia/ko/3/31/%EB%82%98_%ED%99%80%EB%A1%9C_%EC%A7%91%EC%97%90_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                id="mov11"
+                alt="영화11"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/upload.wikimedia.org/wikipedia/ko/3/31/%EB%82%98_%ED%99%80%EB%A1%9C_%EC%A7%91%EC%97%90_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg&title=나 홀로 집에&link=https:\/\/namu.wiki/w/%EB%82%98%20%ED%99%80%EB%A1%9C%20%EC%A7%91%EC%97%90?from=%EB%82%98%ED%99%80%EB%A1%9C%20%EC%A7%91%EC%97%90'"
+            />
+            <img
+                src="https://img.sbs.co.kr/newsnet/etv/upload/2012/05/04/30000054638_700.jpg"
+                id="mov12"
+                alt="영화12"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/img.sbs.co.kr/newsnet/etv/upload/2012/05/04/30000054638_700.jpg&title=내 아내의 모든것&link=https:\/\/namu.wiki/w/%EB%82%B4%20%EC%95%84%EB%82%B4%EC%9D%98%20%EB%AA%A8%EB%93%A0%20%EA%B2%83'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20120731_293/1343700608641aFsBs_JPEG/movie_image.jpg"
+                id="mov13"
+                alt="영화13"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20120731_293/1343700608641aFsBs_JPEG/movie_image.jpg&title=바람과 함께 사라지다&link=https:\/\/namu.wiki/w/%EB%B0%94%EB%9E%8C%EA%B3%BC%20%ED%95%A8%EA%BB%98%20%EC%82%AC%EB%9D%BC%EC%A7%80%EB%8B%A4(%ED%95%9C%EA%B5%AD%20%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20150224_107/1424739640757P3Xc6_JPEG/movie_image.jpg"
+                id="mov14"
+                alt="영화14"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20150224_107/1424739640757P3Xc6_JPEG/movie_image.jpg&title=스물&link=https:\/\/namu.wiki/w/%EC%8A%A4%EB%AC%BC'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20160920_197/1474334630845OPmlV_JPEG/movie_image.jpg"
+                id="mov15"
+                alt="영화15"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20160920_197/1474334630845OPmlV_JPEG/movie_image.jpg&title=럭키&link=https:\/\/namu.wiki/w/%EB%9F%AD%ED%82%A4(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20161123_110/1479885421852lTvQa_JPEG/movie_image.jpg"
+                id="mov16"
+                alt="영화16"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20161123_110/1479885421852lTvQa_JPEG/movie_image.jpg&title=형&link=https:\/\/namu.wiki/w/%ED%98%95(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg"
+                id="mov17"
+                alt="영화17"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg&title=완벽한 타인&link=https:\/\/namu.wiki/w/%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20190116_206/1547615429111dINWj_JPEG/movie_image.jpg"
+                id="mov18"
+                alt="영화18"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20190116_206/1547615429111dINWj_JPEG/movie_image.jpg&title=극한직업&link=https:\/\/namu.wiki/w/%EA%B7%B9%ED%95%9C%EC%A7%81%EC%97%85(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20190724_161/1563931152464tk11A_JPEG/movie_image.jpg"
+                id="mov19"
+                alt="영화19"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20190724_161/1563931152464tk11A_JPEG/movie_image.jpg&title=엑시트&link=https:\/\/namu.wiki/w/%EC%97%91%EC%8B%9C%ED%8A%B8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20190918_70/1568789034699xL82H_JPEG/movie_image.jpg"
+                id="mov20"
+                alt="영화20"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20190918_70/1568789034699xL82H_JPEG/movie_image.jpg&title=퍼펙트맨&link=https:\/\/namu.wiki/w/%ED%8D%BC%ED%8E%99%ED%8A%B8%EB%A7%A8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20200121_186/1579570188386BXMMG_JPEG/movie_image.jpg"
+                id="mov21"
+                alt="영화21"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20200121_186/1579570188386BXMMG_JPEG/movie_image.jpg&title=정직한 후보&link=https:\/\/namu.wiki/w/%EC%A0%95%EC%A7%81%ED%95%9C%20%ED%9B%84%EB%B3%B4'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20200117_56/1579237723353mX1fB_JPEG/movie_image.jpg"
+                id="mov22"
+                alt="영화22"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20200117_56/1579237723353mX1fB_JPEG/movie_image.jpg&title=시동&link=https:\/\/namu.wiki/w/%EC%8B%9C%EB%8F%99(%EC%98%81%ED%99%94)'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111222_277/1324552513048rsEN9_JPEG/movie_image.jpg"
+                id="mov23"
+                alt="영화23"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111222_277/1324552513048rsEN9_JPEG/movie_image.jpg&title=범죄의 재구성&link=https:\/\/namu.wiki/w/%EB%B2%94%EC%A3%84%EC%9D%98%20%EC%9E%AC%EA%B5%AC%EC%84%B1'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20140113_7/1389586752116DnTAF_JPEG/movie_image.jpg"
+                id="mov24"
+                alt="영화24"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20140113_7/1389586752116DnTAF_JPEG/movie_image.jpg&title=피끓는 청춘&link=https:\/\/namu.wiki/w/%ED%94%BC%EB%81%93%EB%8A%94%20%EC%B2%AD%EC%B6%98'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20190828_246/1566958975223z5NAU_JPEG/movie_image.jpg"
+                id="mov25"
+                alt="영화25"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20190828_246/1566958975223z5NAU_JPEG/movie_image.jpg&title=힘을내요 미스터리&link=https:\/\/namu.wiki/w/%ED%9E%98%EC%9D%84%20%EB%82%B4%EC%9A%94%2C%20%EB%AF%B8%EC%8A%A4%ED%84%B0%20%EB%A6%AC'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20111223_36/1324623625436gK7bm_JPEG/movie_image.jpg"
+                id="mov26"
+                alt="영화26"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20111223_36/1324623625436gK7bm_JPEG/movie_image.jpg&title=시라노;연애조작단&link=https:\/\/namu.wiki/w/%EC%8B%9C%EB%9D%BC%EB%85%B8%3B%EC%97%B0%EC%95%A0%20%EC%A1%B0%EC%9E%91%EB%8B%A8'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20180103_83/1514944124667mI6T8_JPEG/movie_image.jpg"
+                id="mov27"
+                alt="영화27"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20180103_83/1514944124667mI6T8_JPEG/movie_image.jpg&title=조선명탐정 : 흡혈괴마의 비밀&link=https:\/\/namu.wiki/w/%EC%A1%B0%EC%84%A0%EB%AA%85%ED%83%90%EC%A0%95%20%EC%8B%9C%EB%A6%AC%EC%A6%88'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20150921_51/1442813202414GEsOr_JPEG/movie_image.jpg"
+                id="mov28"
+                alt="영화28"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20150921_51/1442813202414GEsOr_JPEG/movie_image.jpg&title=특종 : 량첸살인기&link=https:\/\/namu.wiki/w/%ED%8A%B9%EC%A2%85:%20%EB%9F%89%EC%B2%B8%EC%82%B4%EC%9D%B8%EA%B8%B0'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20121204_164/1354603402996ixgxY_JPEG/movie_image.jpg"
+                id="mov29"
+                alt="영화29"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20121204_164/1354603402996ixgxY_JPEG/movie_image.jpg&title=박수건달&link=https:\/\/namu.wiki/w/%EB%B0%95%EC%88%98%EA%B1%B4%EB%8B%AC'"
+            />
+            <img
+                src="https://movie-phinf.pstatic.net/20140930_267/14120563063769m7UE_JPEG/movie_image.jpg"
+                id="mov30"
+                alt="영화30"
+                class="poster"
+                onclick="location.href='detail.html?poster=https:\/\/movie-phinf.pstatic.net/20140930_267/14120563063769m7UE_JPEG/movie_image.jpg&title=우리는 형제입니다&link=https:\/\/namu.wiki/w/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%98%95%EC%A0%9C%EC%9E%85%EB%8B%88%EB%8B%A4'"
+            />
+        </section>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+:root {
+    --pointBlue: #504dda; /*bd5d38*/
+    --lightBule: rgb(234, 240, 255);
+    --batang: rgb(243, 243, 243);
+    --logoHighlight: rgb(182, 182, 255);
+}
+
+* {
+    background-color: var(--pointBlue);
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+h1 {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 370%;
+    text-shadow: 0 0 8px rgb(0, 5, 75);
+}
+
+hr {
+    background-color: white;
+    border-top: 0.2rem dashed var(--pointBlue);
+    height: 0.2rem;
+    width: 50%;
+}
+
+#logo-h {
+    color: var(--logoHighlight);
+}
+
+p {
+    padding-top: 3%;
+    font-size: 25px;
+}
+
+#check_emotion {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+    margin: 15px;
+    border: 15px solid var(--logoHighlight);
+    background-color: var(--lightBule);
+    box-shadow: 0 0 10px rgb(0, 5, 75);
+}
+
+label {
+    margin-right: 35px;
+    color: black;
+    background-color: var(--lightBule);
+}
+
+.nomargin {
+    margin: none;
+}
+
+#happy {
+    margin-left: 15px;
+    content: url('https://resource.grapplet.com/marketplace/8454/1601963001158/emoji9.svg.preview.580x870.png');
+    height: 50px;
+    width: 63px;
+}
+
+#flutter {
+    content: url('https://resource.grapplet.com/marketplace/8448/1601956420651/emoji3.svg.preview.580x870.png');
+    height: 50px;
+    width: 50px;
+}
+
+#impression {
+    content: url('https://resource.grapplet.com/marketplace/8460/1601966817699/emoji13.svg.preview.580x870.png');
+    height: 50px;
+    width: 50px;
+}
+
+#depressed {
+    content: url('https://resource.grapplet.com/marketplace/8459/1601962738815/emoji14.svg.preview.580x870.png');
+    height: 50px;
+    width: 50px;
+}
+
+#angry {
+    content: url('https://resource.grapplet.com/marketplace/8456/1601963839531/emoji11.svg.preview.580x870.png');
+    height: 50px;
+    width: 50px;
+}
+
+#mad {
+    content: url('https://resource.grapplet.com/marketplace/8447/1601956256754/emoji2.svg.preview.580x870.png');
+    height: 50px;
+    width: 50px;
+}
+
+#skip {
+    margin: 60px;
+    padding: 4px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.moving {
+    background-color: white;
+    border: none;
+    color: var(--pointBlue);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.moving:before,
+.moving:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+.moving:before {
+    border-color: white;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    right: -5px;
+    top: -5px;
+}
+.moving:after {
+    border-bottom-width: 2px;
+    border-color: white;
+    border-left-width: 2px;
+    bottom: -5px;
+    left: -5px;
+}
+.moving:hover:before,
+.moving:hover:after {
+    height: 100%;
+    width: 100%;
+}
